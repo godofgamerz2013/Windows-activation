@@ -2,7 +2,7 @@
 
   irm https://raw.githubusercontent.com/godofgamerz2013/Windows-activation/refs/heads/main/Activation-win-office.ps | iex
 
-   irm 
+ 
 
 
 if ($ExecutionContext.SessionState.LanguageMode.value__ -ne 0) {
@@ -87,4 +87,4 @@ CheckFile $FilePath
 $FilePaths = @("$env:SystemRoot\Temp\MAS*.cmd", "$env:USERPROFILE\AppData\Local\Temp\MAS*.cmd")
 foreach ($FilePath in $FilePaths) { Get-Item $FilePath | Remove-Item }
 
- | iex
+ 
